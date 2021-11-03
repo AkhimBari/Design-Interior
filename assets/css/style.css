@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* font-family: 'Lora', serif;
+font-family: 'Work Sans', sans-serif; */
+
+/* Farbe: #2e2e2e / #fff / #000 / #1d2c2f */
+
+/* Seite 1 Start */
+
+.head {
+    display: flex;
+}
+
+.interior {
+    margin-left: auto;
+    width: 60%;
+}
+
+.logo {
+    font-size: 3.5rem;
+    text-align: center;
+    margin: auto 0 auto 5vw;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.logo p {
+    font-size: 2rem;
+    padding-top: 5%;
+}
+
+/* Seite 1 Ende */
+
+/* Seite 2 Start */
+
+.nav {
+    background-color: #2e2e2e;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+nav img {
+    padding: 2% 1%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+nav ul li {
+    padding-right: 7rem;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+.page2 {
+    background-color: #2e2e2e;
+    display: flex;
+}
+
+.story {
+    width: 60%;
+    margin: 6% 0;
+}
+
+.article {
+    text-align: left;
+    color: #fff;
+    margin: 10vh 4vw 0 4vw;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 250;
+}
+
+.article h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+.text {
+    font-size: 1rem;
+    width: 600px;
+}
+
+.text p {
+    padding: 20px 0;
+}
+
+/* Seite 2 Ende */
+
+/* Seite 3 Start */
+
+.feature {
+    margin: 7% auto;
+    line-height: 50px;
+    width: 40%;
+}
+
+.feature h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.feature p {
+    font-size: 1.5rem;
+    font-weight: 250px;
+    color: #1d2c2f;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+}
+
+.pictures figcaption {
+    color: #1d2c2f;
+    text-align: center;
+}
+
+.pictures img {
+    width: 70%;
+    margin-left: 19%;
+}
+
+.youtube {
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+/* Seite 3 Ende */
+
+/* Seite 4 Start */
+
+.touch {
+    display: flex;
+    justify-content: space-around;
+    padding: 26% 0 6% 0;
+    line-height: 2rem;
+    color: white;
+    background-color: #2e2e2e;
+}
+
+.get p:nth-of-type(1) {
+    padding-top: 5%;
+}
+
+.get p:nth-of-type(2) {
+    margin-bottom: 60%;
+    padding-top: 5%;
+}
+
+.get {
+    padding: auto 0;
+    font-size: 2rem;
+}
+
+input {
+    padding: 10px 35px;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+button {
+    font-size: 1.5rem;
+    margin-top: 5%;
+}
+
+/* Seite 3 Ende */
+
+/* Footer Start */
+
+.footer {
+    background: #1d2c2f;
+    color: #fff;
+    display: flex;
+    font-family: "Lora", serif;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+    font-size: 1.2rem;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer ul li {
+    padding-left: 20px;
+}
+
+/* Footer Ende */
+
+@media screen and (max-width: 600px) {
+    .head {
+        display: flex;
+    }
+    .interior {
+        margin-left: auto;
+        width: 60%;
+    }
+    .logo {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: auto 0 auto 5vw;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .logo p {
+        font-size: 1rem;
+        padding-top: 5%;
+    }
+}
+
+/* Fortsetzung folgt !!!! */
